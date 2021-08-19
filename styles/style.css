@@ -1,0 +1,237 @@
+/* ==================== FONTS ==================== */
+
+/* playfair-display-regular - cyrillic */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/playfair-display-v22-cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/playfair-display-v22-cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/playfair-display-v22-cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/playfair-display-v22-cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/playfair-display-v22-cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/playfair-display-v22-cyrillic-regular.svg#PlayfairDisplay")
+      format("svg"); /* Legacy iOS */
+}
+
+/* playfair-display-700 - cyrillic */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/playfair-display-v22-cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/playfair-display-v22-cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/playfair-display-v22-cyrillic-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/playfair-display-v22-cyrillic-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/playfair-display-v22-cyrillic-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/playfair-display-v22-cyrillic-700.svg#PlayfairDisplay")
+      format("svg"); /* Legacy iOS */
+}
+
+/* playfair-display-italic - cyrillic */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/playfair-display-v22-cyrillic-italic.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/playfair-display-v22-cyrillic-italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/playfair-display-v22-cyrillic-italic.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/playfair-display-v22-cyrillic-italic.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/playfair-display-v22-cyrillic-italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/playfair-display-v22-cyrillic-italic.svg#PlayfairDisplay")
+      format("svg"); /* Legacy iOS */
+}
+
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v18-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v18-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v18-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v18-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/montserrat-v18-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v18-latin_cyrillic-regular.svg#Montserrat")
+      format("svg"); /* Legacy iOS */
+}
+
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v18-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/montserrat-v18-latin_cyrillic-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v18-latin_cyrillic-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v18-latin_cyrillic-500.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/montserrat-v18-latin_cyrillic-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v18-latin_cyrillic-500.svg#Montserrat")
+      format("svg"); /* Legacy iOS */
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+.header {
+  height: 64px;
+  border-top: 1px solid #AE7C78;
+  border-bottom: 1px solid #AE7C78;
+  margin-top: 26px;
+}
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+.header__navigation-item {
+  list-style: none;
+}
+.header__navigation-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+  text-decoration: none;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 81px;
+}
+
+.hero__wrap {
+  width: 384px;
+}
+
+.hero__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  color: #AE7C78;
+}
+
+.hero__descr {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #AE7C78;
+  margin-top: 24px;
+}
+
+.hero__link {
+  display: block;
+  max-width: 285px;
+  background: #D89999;
+  border-radius: 40px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 30px 0;
+}
+.hero__img:first-of-type {
+  padding-top: 59px;
+}
+
+.features {
+  padding-top: 48px;
+}
+.features__list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__list-item {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.features__card-wrap {
+  width: 285px;
+}
+
+.features__card-img {
+  margin-right: 20px;
+}
+
+.features__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+  margin: 0;
+}
+
+.features__descr {
+  margin-top: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+}
